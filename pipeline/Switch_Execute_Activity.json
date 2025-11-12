@@ -1,0 +1,33 @@
+{
+	"name": "Switch_Execute_Activity",
+	"properties": {
+		"activities": [
+			{
+				"name": "Switch1",
+				"type": "Switch",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"on": {
+						"value": "@variables('action')",
+						"type": "Expression"
+					},
+					"cases": [
+						{
+							"value": "Copy"
+						},
+						{
+							"value": "Case2"
+						}
+					]
+				}
+			}
+		],
+		"variables": {
+			"action": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
