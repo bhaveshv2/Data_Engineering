@@ -8,6 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"on": {
+						"value": "@pipeline().parameters.action",
+						"type": "Expression"
+					},
 					"cases": [
 						{
 							"value": "Copy",
@@ -106,9 +110,9 @@
 				}
 			}
 		],
-		"variables": {
+		"parameters": {
 			"action": {
-				"type": "String"
+				"type": "string"
 			}
 		},
 		"annotations": []
