@@ -8,10 +8,6 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"on": {
-						"value": "@variables('action')",
-						"type": "Expression"
-					},
 					"cases": [
 						{
 							"value": "Copy",
@@ -96,7 +92,7 @@
 											"referenceName": "DS_SOURCE_MOVIE",
 											"type": "DatasetReference"
 										},
-										"enableLogging": true,
+										"enableLogging": false,
 										"storeSettings": {
 											"type": "AzureBlobFSReadSettings",
 											"recursive": true,
