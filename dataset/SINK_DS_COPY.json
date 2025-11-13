@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"folderPath": "AdventureWorks2022",
 				"fileSystem": "adfsink"
 			},
 			"columnDelimiter": ",",
