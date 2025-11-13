@@ -91,7 +91,10 @@
 									"referenceName": "OnPrem_to_ADLS",
 									"type": "DatasetReference",
 									"parameters": {
-										"schemaName": "@item.",
+										"schemaName": {
+											"value": "@item().TABLE_SCHEMA",
+											"type": "Expression"
+										},
 										"tableName": "@item().TABLE_NAME"
 									}
 								}
