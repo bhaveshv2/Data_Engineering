@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "COPY_ACTIVITY_FOR_MOUNTING_TO_DATABRICKS",
 	"properties": {
 		"activities": [
 			{
